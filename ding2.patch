@@ -7,7 +7,7 @@
   dependencies[] = ding_news
   
 + ; oc features
-+ dependencies[] = fe_blocks
++ dependencies[] = fe_block
 + dependencies[] = oc_blocks
 + dependencies[] = ding_oc_omega_frontend
 + 
