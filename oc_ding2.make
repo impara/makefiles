@@ -19,5 +19,5 @@ projects[oc_blocks][download][url] = "git@github.com:impara/oc_blocks.git"
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "https://github.com/ding2/ding2.git"
-libraries[profiler][patch][] = http://drupal.org/files/profiler-reverse.patch
+projects[ding2][patch][] = https://raw.github.com/impara/makefiles/master/ding2.patch
 
