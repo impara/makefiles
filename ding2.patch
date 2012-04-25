@@ -1,13 +1,14 @@
---- ding2.info  2012-04-25 10:43:57.277110482 +0200
-+++ ding3.info  2012-04-25 11:05:00.437149281 +0200
-@@ -4,6 +4,9 @@
- core = 7.x
- distribution_name = "Ding 2"
-
-+dependencies[] = fe_blocks
-+dependencies[] = oc_blocks
-+dependencies[] = ding_oc_omega_frontend
- dependencies[] = block
- dependencies[] = contextual
- dependencies[] = menu
-
+*** ding2.info	2012-04-25 11:59:23.000000000 +0200
+--- ding3.info	2012-04-25 12:02:14.000000000 +0200
+***************
+*** 23,26 ****
+--- 23,31 ----
+  dependencies[] = ding_library_menu
+  dependencies[] = ding_news
+  
++ ; oc features
++ dependencies[] = fe_blocks
++ dependencies[] = oc_blocks
++ dependencies[] = ding_oc_omega_frontend
++ 
+  files[] = ding2.profile
