@@ -1,6 +1,13 @@
-diff --git ding2/ding2.info ding2/ding2.info
---- ding2/ding2.info
-+++ ding2/ding2.info
-+ dependencies[] = fe_blocks
-+ dependencies[] = oc_blocks
-+ dependencies[] = ding_oc_omega_frontend
+--- ding2.info  2012-04-25 10:43:57.277110482 +0200
++++ ding3.info  2012-04-25 11:05:00.437149281 +0200
+@@ -4,6 +4,9 @@
+ core = 7.x
+ distribution_name = "Ding 2"
+
++dependencies[] = fe_blocks
++dependencies[] = oc_blocks
++dependencies[] = ding_oc_omega_frontend
+ dependencies[] = block
+ dependencies[] = contextual
+ dependencies[] = menu
+
