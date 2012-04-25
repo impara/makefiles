@@ -1,2 +1,5 @@
-dependencies[] = oc_blocks
-dependencies[] = ding_oc_omega_frontend
+diff --git a/ding2.info b/ding2.info
+--- a/ding2.info
++++ b/ding2.info
++ dependencies[] = oc_blocks
++ dependencies[] = ding_oc_omega_frontend
