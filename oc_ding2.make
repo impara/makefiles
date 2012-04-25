@@ -4,10 +4,7 @@ core = 7.x
 projects[drupal][type] = core
 projects[drupal][version] = "7.10"
 
-projects[features_extra][type] = module
-projects[features_extra][download][type] = cvs
-projects[features_extra][download][module] = contributions/modules/features_extra
-projects[features_extra][download][revision] = "HEAD"
+projects[features_extra] = "1.x-dev"
 
 projects[oc_omega_test][type] = "theme"
 projects[oc_omega_test][download][type] = "git"

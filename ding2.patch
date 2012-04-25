@@ -1,6 +1,6 @@
-diff --git a/ding2.info b/ding2.info
---- a/ding2.info
-+++ b/ding2.info
+diff --git ding2/ding2.info ding2/ding2.info
+--- ding2/ding2.info
++++ ding2/ding2.info
 + dependencies[] = fe_blocks
 + dependencies[] = oc_blocks
 + dependencies[] = ding_oc_omega_frontend
