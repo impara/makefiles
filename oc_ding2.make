@@ -5,6 +5,7 @@ projects[drupal][type] = core
 projects[drupal][version] = "7.10"
 
 projects[features_extra] = "1.x-dev"
+projects[omega] = "3.1"
 
 projects[oc_omega_test][type] = "theme"
 projects[oc_omega_test][download][type] = "git"
