@@ -1,0 +1,3 @@
+[submodule "phing-drupal-template"]
+	path = phing-drupal-template
+	url = https://github.com/reload/phing-drupal-template.git
