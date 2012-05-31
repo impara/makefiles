@@ -2,7 +2,7 @@
 --- ding3.info	2012-04-25 12:02:14.000000000 +0200
 ***************
 *** 23,26 ****
---- 23,32 ----
+--- 23,33 ----
   dependencies[] = ding_library_menu
   dependencies[] = ding_news
   
@@ -12,4 +12,5 @@
 + dependencies[] = views_ui
 + dependencies[] = ding_oc_omega_frontend
 + dependencies[] = sms_service
++ dependencies[] = oc_omega_test
   files[] = ding2.profile
