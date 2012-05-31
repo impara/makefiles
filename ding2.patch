@@ -11,5 +11,5 @@
 + dependencies[] = oc_blocks
 + dependencies[] = views_ui
 + dependencies[] = ding_oc_omega_frontend
-+ dependencies[] = alma 
++  
   files[] = ding2.profile
