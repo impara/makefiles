@@ -6,10 +6,11 @@ projects[drupal][version] = "7.10"
 
 projects[features_extra] = "1.x-dev"
 projects[omega] = "3.1"
+projects[panels_style_collapsible] = "7.x-1.x.dev"
 
-projects[oc_omega_test][type] = "theme"
-projects[oc_omega_test][download][type] = "git"
-projects[oc_omega_test][download][url] = "https://github.com/impara/oc_omega_test.git"
+projects[oc_omega][type] = "theme"
+projects[oc_omega][download][type] = "git"
+projects[oc_omega][download][url] = "https://github.com/impara/oc_omega.git"
 
 projects[ding_oc_omega_frontend][type] = "module"
 projects[ding_oc_omega_frontend][download][type] = "git"
