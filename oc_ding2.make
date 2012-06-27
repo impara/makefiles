@@ -6,7 +6,7 @@ projects[drupal][version] = "7.10"
 
 projects[features_extra] = "1.x-dev"
 projects[omega] = "3.1"
-projects[panels_style_collapsible] = "7.x-1.x.dev"
+projects[panels_style_collapsible] = "1.x-dev"
 
 projects[oc_omega][type] = "theme"
 projects[oc_omega][download][type] = "git"
