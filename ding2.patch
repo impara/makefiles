@@ -12,5 +12,4 @@
 + dependencies[] = views_ui
 + dependencies[] = ding_oc_omega_frontend
 + dependencies[] = panels_style_collapsible
-+ dependencies[] = omega_content
   files[] = ding2.profile
