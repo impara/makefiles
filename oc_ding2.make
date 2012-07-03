@@ -16,9 +16,9 @@ projects[ding_oc_omega_frontend][type] = "module"
 projects[ding_oc_omega_frontend][download][type] = "git"
 projects[ding_oc_omega_frontend][download][url] = "git@github.com:impara/ding_oc_omega_frontend.git"
 
-projects[oc_blocks][type] = "module"
-projects[oc_blocks][download][type] = "git"
-projects[oc_blocks][download][url] = "git@github.com:impara/oc_blocks.git"
+projects[omega_blocks][type] = "module"
+projects[omega_blocks][download][type] = "git"
+projects[omega_blocks][download][url] = "git@github.com:impara/omega_blocks.git"
 
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
