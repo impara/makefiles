@@ -30,6 +30,3 @@ projects[sms_service][type] = "module"
 projects[sms_service][download][type] = "git"
 projects[sms_service][download][url] = "git@github.com:impara/sms_service.git"
 
-projects[omega_content][type] = "module"
-projects[omega_content][download][type] = "git"
-projects[omega_content][download][url] = "git@github.com:impara/omega_content.git"
