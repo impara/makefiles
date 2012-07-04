@@ -2,7 +2,7 @@
 --- ding3.info	2012-04-25 12:02:14.000000000 +0200
 ***************
 *** 23,26 ****
---- 23,33 ----
+--- 23,32 ----
   dependencies[] = ding_library_menu
   dependencies[] = ding_news
   
