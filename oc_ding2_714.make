@@ -8,6 +8,9 @@ projects[features_extra] = "1.x-dev"
 projects[omega] = "3.1"
 projects[panels_style_collapsible] = "1.x-dev"
 
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.0"
+
 projects[oc_omega][type] = "theme"
 projects[oc_omega][download][type] = "git"
 projects[oc_omega][download][url] = "https://github.com/impara/oc_omega.git"
