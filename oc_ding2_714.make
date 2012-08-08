@@ -3,6 +3,7 @@ core = 7.x
 
 projects[drupal][type] = core
 projects[drupal][version] = "7.14"
+projects[drupal][patch[] = http://drupal.org/files/menu-get-item-rebuild-1232346-22_0.patch
 
 projects[features_extra] = "1.x-dev"
 projects[omega] = "3.1"
