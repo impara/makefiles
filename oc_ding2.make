@@ -2,31 +2,40 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7.10"
+projects[drupal][version] = "7.14"
+projects[drupal][patch[] = "http://drupal.org/files/menu-get-item-rebuild-1232346-22_0.patch"
 
-projects[features_extra] = "1.x-dev"
-projects[omega] = "3.1"
-projects[panels_style_collapsible] = "1.x-dev"
+;contrib
+projects[panels_style_collapsible][subdir] = "contrib"
+projects[panels_style_collapsible][version] = "1.x-dev"
 
-projects[oc_omega][type] = "theme"
-projects[oc_omega][download][type] = "git"
-projects[oc_omega][download][url] = "https://github.com/impara/oc_omega.git"
+projects[panels_everywhere][subdir] = "contrib"
+projects[panels_everywhere][version] = "1.0-rc1"
 
-projects[ding_oc_omega_frontend][type] = "module"
-projects[ding_oc_omega_frontend][download][type] = "git"
-projects[ding_oc_omega_frontend][download][url] = "git@github.com:impara/ding_oc_omega_frontend.git"
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = "2.3"
 
-projects[omega_blocks][type] = "module"
-projects[omega_blocks][download][type] = "git"
-projects[omega_blocks][download][url] = "git@github.com:impara/omega_blocks.git"
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.0"
+
+projects[latto][type] = "theme"
+projects[latto][download][type] = "git"
+projects[latto][download][url] = "git@github.com:ding2tal/latto.git"
+projects[latto][download][branch] = "development"
 
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
-projects[ding2][download][url] = "https://github.com/ding2/ding2.git"
-;patch til ding2.info file added dependencies
-projects[ding2][patch][] = https://raw.github.com/impara/makefiles/master/ding2.patch
+projects[ding2][download][url] = "git@github.com:ding2tal/ding2.git"
+projects[ding2][download][branch] = "odense"
 
+; Custom modules
 projects[sms_service][type] = "module"
+projects[sms_service][subdir] = "custom"
 projects[sms_service][download][type] = "git"
 projects[sms_service][download][url] = "git@github.com:impara/sms_service.git"
+
+projects[latto_sample_content][type] = "module"
+projects[latto_sample_content][subdir] = "custom"
+projects[latto_sample_content][download][type] = "git"
+projects[latto_sample_content][download][url] = "git@github.com:ding2tal/latto_sample_content.git"
 
