@@ -7,12 +7,6 @@ projects[drupal][version] = "7.14"
 
 ;contrib
 
-projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable6"
-
-projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable6"
-
 projects[panels_style_collapsible][subdir] = "contrib"
 projects[panels_style_collapsible][version] = "1.x-dev"
 
@@ -38,7 +32,6 @@ projects[latto][download][url] = "git@github.com:ding2tal/latto.git"
 projects[ding2][type] = "profile"
 projects[ding2][download][type] = "git"
 projects[ding2][download][url] = "git@github.com:ding2tal/ding2.git"
-projects[ding2][download][branch] = "odense"
 
 ; Custom modules
 projects[sms_service][type] = "module"
