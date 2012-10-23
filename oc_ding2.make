@@ -26,7 +26,7 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.18"
 
 projects[panels_style_collapsible][subdir] = "contrib"
-projects[panels_style_collapsible][version] = "1.x-dev"
+projects[panels_style_collapsible][version] = "1.0"
 
 ;Ding2tal
 projects[latto][type] = "theme"
