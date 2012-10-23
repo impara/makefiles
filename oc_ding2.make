@@ -17,6 +17,7 @@ projects[tipsy][version] = "1.0-rc1"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
+;Just grab the newest release of these, their functionality isn't critical or even visible to the ordinary user
 projects[diff][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
