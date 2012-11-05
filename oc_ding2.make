@@ -30,13 +30,13 @@ projects[panels_style_collapsible][subdir] = "contrib"
 projects[panels_style_collapsible][version] = "1.0"
 
 ;Ding2tal
-projects[latto][type] = "theme"
-projects[latto][download][type] = "git"
-projects[latto][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
+projects[latto_odense][type] = "theme"
+projects[latto_odense][download][type] = "git"
+projects[latto_odense][download][url] = "git@github.com:odensecentralbibliotek/latto_odense.git"
 
-projects[latto][type] = "theme"
-projects[latto][download][type] = "git"
-projects[latto][download][url] = "git@github.com:ding2tal/ddbasic.git"
+projects[ddbasic][type] = "theme"
+projects[ddbasic][download][type] = "git"
+projects[ddbasic][download][url] = "git@github.com:ding2tal/ddbasic.git"
 
 projects[latto][type] = "theme"
 projects[latto][download][type] = "git"
